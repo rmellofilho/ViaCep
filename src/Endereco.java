@@ -1,4 +1,3 @@
-package modelos;
 
 public record Endereco (String cep,
                         String logradouro, 
