@@ -1,18 +1,44 @@
-## Getting Started
+# ViaCep
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto consiste em uma aplicação Java simples para consulta de endereços através do CEP utilizando a API do ViaCep.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Consulta de endereço a partir do CEP inserido pelo usuário.
+- Geração de arquivo JSON com os dados do endereço consultado.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como usar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Clone o repositório:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    ```bash
+    git clone https://github.com/rmellofilho/ViaCep.git
+    ```
 
-## Dependency Management
+2. Compile os arquivos Java:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    ```bash
+    javac *.java
+    ```
+
+3. Execute a classe `Principal`:
+
+    ```bash
+    java Principal
+    ```
+
+4. Siga as instruções no console para inserir o número de CEP desejado.
+
+5. O resultado da consulta será exibido no console e um arquivo JSON será gerado com os dados do endereço consultado.
+
+## Dependências
+
+- Gson: Utilizado para serialização e desserialização de objetos JSON.
+
+## Contribuindo
+
+Sinta-se à vontade para abrir issues ou enviar pull requests para contribuir com o projeto.
+
+## Autor
+
+Este projeto foi desenvolvido por [rmellofilho](https://github.com/rmellofilho).
