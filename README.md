@@ -39,6 +39,3 @@ Este projeto consiste em uma aplicação Java simples para consulta de endereço
 
 Sinta-se à vontade para abrir issues ou enviar pull requests para contribuir com o projeto.
 
-## Autor
-
-Este projeto foi desenvolvido por [rmellofilho](https://github.com/rmellofilho).
